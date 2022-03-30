@@ -23,6 +23,21 @@ article {
     grid-area: a;
     background-color: aqua;
     text-align: center;
+    min-height: 350px;
+}
+
+#csonak {
+    background-image: url("kepek/csonak.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:inherit;
+    width: 300px;
+    margin: auto;
+    height: 80%;
+}
+
+#csonak img {
+    width: 40%;
 }
 
 .kiemel {
