@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+main, header, aside, article, footer {
+    border: solid 1px black;
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "h h h h"
+                         "as1 a a as2"
+                         "f f f f";
+}
+
+header {
+    grid-area: h;
+}
+
+article {
+    grid-area: a;
+    background-color: aqua;
+    text-align: center;
+}
+
+.kiemel {
+    border: solid 2pt red;
+    cursor: grab;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+#bal {
+    grid-area: as1;
+}
+
+#jobb {
+    grid-area: as2;
+}
+
+aside img {
+    width: 100px;
+}
+
+footer {
+    grid-area: f;
+}
+
+footer p {
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
