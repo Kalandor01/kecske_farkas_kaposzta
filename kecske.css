@@ -68,9 +68,3 @@ aside img {
 footer {
     grid-area: f;
 }
-
-footer p {
-    background-color: aqua;
-    text-align: center;
-    font-size: 20px;
-}
